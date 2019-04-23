@@ -9,11 +9,11 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	
+
 	<groupId>com.learn.spring.microservice</groupId>
 	<artifactId>currency-conversion</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<name>currency-conversion</name>
 	<description>Microservices with Spring Boot and Spring Cloud - Currency Conversion</description>
 
@@ -40,6 +40,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		<!-- Ribbon Dependency -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
